@@ -1,7 +1,7 @@
 # Responsive Web Design: Survey form
 
 > Welcome my project "Responsive Web Design: Survey form" , built with html and css. 
-The purpose of this exercise is to make use of responsive design principles in order to make the website responsive. In particular, media queries are used to adapt the content to different viewport sizes.
+The purpose of this exercise is to make use of responsive web design principles in order to make the website responsive. In particular, media queries are used to adapt the content to different viewport sizes.
 Please enjoy and leave a comment.
 
 # Screenshot
