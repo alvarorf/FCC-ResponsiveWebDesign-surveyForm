@@ -1,4 +1,11 @@
+/*
+Google font
+*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+/*
+General rules
+*/
 
 :root {
   --color-white: #f3f3f3;
@@ -22,7 +29,6 @@ body {
   margin: 0;
 }
 
-/* mobile friendly alternative to using background-attachment: fixed */
 body::before {
   content: '';
   position: fixed;
@@ -32,7 +38,8 @@ body::before {
   width: 100%;
   z-index: -1;
   background: var(--color-darkblue);
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       115deg,
       rgba(58, 58, 158, 0.8),
       rgba(136, 136, 206, 0.7)
@@ -84,18 +91,6 @@ button {
   margin: 3.125rem auto 0 auto;
 }
 
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
 .header {
   padding: 0 0.625rem;
   margin-bottom: 1.875rem;
@@ -123,12 +118,6 @@ form {
   background: var(--color-darkblue-alpha);
   padding: 2.5rem 0.625rem;
   border-radius: 0.25rem;
-}
-
-@media (min-width: 480px) {
-  form {
-    padding: 2.5rem;
-  }
 }
 
 .form-group {
@@ -178,4 +167,22 @@ form {
   color: inherit;
   border-radius: 2px;
   cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
 }
