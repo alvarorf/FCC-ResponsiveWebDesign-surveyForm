@@ -6,10 +6,10 @@ Please enjoy and leave a comment.
 
 # Screenshot
 
-![screenshot](./images/screenshot.png)
+![screenshot](./images/screenshot.jpeg)
 
 ## Live Demo
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/alvarorf/FCC-ResponsiveWebDesign-surveyForm/98129075a69f56aae54e8276ee0af8beff950606/index.html)
 
 ## Getting Started
 
